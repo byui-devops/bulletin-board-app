@@ -1,11 +1,5 @@
-{
-  "name": "bulletin-board-app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+"scripts": {
+  "start": "node index.js",
+  "test": "echo \"No tests defined\" && exit 0",
+  "test:coverage": "echo \"No coverage available\" && exit 0"
 }
