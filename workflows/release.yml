@@ -20,8 +20,8 @@ jobs:
       run:
         working-directory: iac
 
-    steps:
-      - name: Checkout code
+   steps:
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Terraform
