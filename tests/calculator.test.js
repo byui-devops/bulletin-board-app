@@ -94,6 +94,8 @@ describe('Calculator', () => {
       expect(calculator.isPrime(1)).toBe(false);
       expect(calculator.isPrime(4)).toBe(false);
       expect(calculator.isPrime(15)).toBe(false);
+      expect(calculator.isPrime(49)).toBe(false);
+      expect(calculator.isPrime(25)).toBe(false);
     });
 
     test('should return false for numbers less than 2', () => {
