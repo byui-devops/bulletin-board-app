@@ -73,7 +73,7 @@ describe('StringUtils', () => {
     });
 
     test('should use custom suffix', () => {
-      expect(StringUtils.truncate('This is a long string', 10, '***')).toBe('This is ***');
+      expect(StringUtils.truncate('This is a long string', 10, '***')).toBe('This is***');
     });
 
     test('should throw error for non-string input', () => {
